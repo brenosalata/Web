@@ -1,0 +1,29 @@
+html{
+    background-color:#efe9e5;
+    
+
+   
+}
+
+.centro{
+    background:rgb(116, 116, 230);
+    border:solid #808080;
+    box-shadow: 0px 0px 10px solid rgba(5, 4, 4, 0.06);
+    margin: 0 auto;
+    line-height: 1.5;
+    max-width: 800px;
+    padding: 20px 2em 2em 4em;
+    color: #180046;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Century"
+}   
+
+#b1{
+ margin-left: 52%;
+}
+
+.pe{
+    text-align: center;
+    font-size: 10px;
+}

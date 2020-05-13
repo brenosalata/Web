@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="javascript.js"></script>
+    
+    <title>Quiz</title>
+</head>
+<body onload="mensagem();">
+    <form class="centro">
+        
+        <p>1. Qual destes passwords foi o mais usado na internet?</p>
+        <input type="radio" name="Q1" value="A">a) a1b2c3<br><br>
+        <input type="radio" name="Q1"value="B">b) abcdef<br><br>
+        <input type="radio" name="Q1"value="C">c) 123456 <a id="certo"></a><br><br> 
+        <hr>
+ 
+        <p>2. O que significa a sigla “www” na internet?</p>
+        <input type="radio" name="Q2" value="A">a) World wide web <a id="certo2"></a><br><br>
+        <input type="radio" name="Q2" value="B">b) Web world wide<br><br>
+        <input type="radio" name="Q2" value="C">c) Web wide world<br><br> 
+        <hr>
+  
+        <p>3. Qual foi o primeiro tweet da história?</p>
+        <input type="radio" name="Q3" value="A">a) "Olá, twitter".<br><br>
+        <input type="radio" name="Q3" value="B">b) "Olá, mundo".<br><br>
+        <input type="radio" name="Q3" value="C">c) "Estou preparando meu twitter". <a id="certo3"></a><br><br> 
+        <hr>
+    
+        <p>4. Qual foi a duração do primeiro vídeo do Youtube?</p>
+        <input type="radio" name="Q4" value="A">a) 3 minutos<br><br>
+        <input type="radio" name="Q4" value="B">b) 1 minuto<br><br>
+        <input type="radio" name="Q4" value="C">c) 18 segundos <a id="certo4"></a><br><br> 
+        <hr>
+    
+        <p>5. Em média, quantas pesquisas totalmente novas são feitas no Google por dia?</p>
+        <input type="radio" name="Q5" value="A">a) 450 milhões <a id="certo5"></a><br><br>
+        <input type="radio" name="Q5" value="B">b) 1 bilhão<br><br>
+        <input type="radio" name="Q5" value="C">c) 280 milhões<br><br> 
+        <hr>
+    
+        <p>6. Qual foi a primeira rede social da história?</p>
+        <input type="radio" name="Q6" value="A">a) Classmate <a id="certo6"></a><br><br>
+        <input type="radio" name="Q6" value="B">b) MySpace<br><br>
+        <input type="radio" name="Q6" value="C">c) Orkut<br><br> 
+        <hr>
+
+        <p>7. Quando foi criado o primeiro smartphone da história?</p>
+        <input type="radio" name="Q7" value="A">a) 1994 <a id="certo7"></a><br><br>
+        <input type="radio" name="Q7" value="B">b) 2000<br><br>
+        <input type="radio" name="Q7" value="C">c) 1998<br><br> 
+        <hr>
+
+        <p>8. Qual o nome do ataque cibernético que atingiu computadores no mundo todo este ano?</p>
+        <input type="radio" name="Q8" value="A">a) WannaSpy<br><br>
+        <input type="radio" name="Q8" value="B">b) WannaFly<br><br>
+        <input type="radio" name="Q8" value="C">c) WannaCry <a id="certo8"></a><br><br> 
+        <hr>
+
+        <p>9. Qual a resolução de uma imagem Full HD?</p>
+        <input type="radio" name="Q9" value="A">a) 1920 x 1080 <a id="certo9"></a><br><br>
+        <input type="radio" name="Q9" value="B">b) 1280 x 720<br><br>
+        <input type="radio" name="Q9" value="C">c) 2560 x 1440<br><br> 
+        <hr>
+
+        <p>10. Quantos bits cabem em um byte?</p>
+        <input type="radio" name="Q10" value="A">a) 8 bits <a id="certo10"></a><br><br>
+        <input type="radio" name="Q10" value="B">b) 1 bit<br><br>
+        <input type="radio" name="Q10" value="C">c) 12 bits<br><br> 
+        <hr>
+        <button id ="bot2" type="button" onclick= "validaQuestoes()">Enviar</button>
+        <button id="bot" onclick="messageDev()">Tentar novamente</button>
+        <button id="b1" type="reset" onclick="removeMarkets()" value="Limpar Dados">Limpar Dados</button>
+        <button id="b2" type="button" onclick="showQuestoes()">Respostas</button>
+    </form>
+    <footer class="pe">
+        <a>Developer: Breno Salata</a>
+    </footer>
+</body>
+</html> 
